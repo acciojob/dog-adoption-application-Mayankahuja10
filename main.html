@@ -7,6 +7,36 @@
 </head>
 
 <body>
+	<form id="my-form" method="post">
+		 <div>
+			<label for="name">Your name</label>
+			 <input type="text" id="name" placeholder="Name" required />
+		</div>
+		<div>
+			 <label for="phone">Phone Number</label>
+			 <input type="text" name="phone" id="phone" placeholder="Phone Number">
+		</div>
+		<div>
+			<label for="address">Address</label>
+			 <input type="text" id="address" placeholder="address" required />
+		</div>
+		 <label for="checkbox"> Have you ever lived with a Dog before? </label>
+			<input type="checkbox" name="checkbox"id="checkbox">
+		<br>
+		<div>
+                <!-- for dropdown ment -->
+                <label for="multiSelect">Please select your preferred breeds</label>
+                <select name="multiSelect" name="multiSelect" id="multiSelect" multiple >
+                    <option value="Jerman">Jerman</option>
+                    <option value="pug">pug</option>
+                    <option value="labra">labra</option>
+                </select>
+        </div>
+		<div>
+			<label for="submit"></label>
+			<button type="submit" name="submit" id="submit" value="submit">Submit</button>
+		</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
